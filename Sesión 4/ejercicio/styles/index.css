@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-columns: (3, repeat(1fr));
+    grid-template-rows: (2, repeat(1fr));
+    grid-template-areas: "navbar navbar"
+                         ". form"
+                         "pie pei";
+}
+
+header{
+    width: 95%;
+    grid-area: navbar;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+header img{
+    width: 300px;
+}
+
+header a{
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+main {
+    grid-area: form;
+    margin-top: 50px;
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+footer {
+    grid-area: pie;
+    background-color: gray;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
