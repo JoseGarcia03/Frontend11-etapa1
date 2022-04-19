@@ -1,0 +1,37 @@
+body {
+    background-image: url("https://img1.wallspic.com/crops/6/3/8/7/3/137836/137836-caricatura-personaje_de_ficcion-arte-animacion-de_dibujos_animados-2560x1440.jpg");
+    background-size: 100%;
+}
+
+.filtros{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: .8rem 1.5rem;
+    font-size: 20px;
+    font-family: 'Lucida Sans', sans-serif;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    background-color: #526E2DFF;
+}
+
+.btn:hover{
+    background-color: #FAFD7CFF;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.card{
+    cursor: pointer;
+}
