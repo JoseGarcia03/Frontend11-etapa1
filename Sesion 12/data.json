@@ -1,0 +1,20 @@
+{
+    "mentores": [
+        {
+            "nombre": "Jose Garcia",
+            "Edad": 22
+        },
+        {
+            "nombre": "Gustavo Tovar",
+            "Edad": 20
+        }
+    ],
+    "estudiantes": [
+        {
+            "nombre": "Jennifer"
+        },
+        {
+            "nombre": "Mathuys"
+        }
+    ]
+}
